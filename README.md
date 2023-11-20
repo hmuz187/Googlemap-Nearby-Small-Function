@@ -31,9 +31,9 @@ On macOS:
 ## Backend Setup (Node.js & Express)
 
 1. Clone the repository from GitHub:
-> git clone https://github.com/YOUR_REPOSITORY.git
+> git clone https://github.com/Googlemap-Nearby-Small-Function.git
 >
-> cd YOUR_REPOSITORY/backend
+> cd Googlemap-Nearby-Small-Function/backend
 
 2. Install dependencies:
 > npm install
@@ -49,7 +49,7 @@ On macOS:
 
 ## Frontend Setup (Angular)
 1. Navigate to the frontend directory:
-> cd YOUR_REPOSITORY/frontend
+> cd Googlemap-Nearby-Small-Function/frontend/AngularPlace
 
 2. Install dependencies:
 > npm install
@@ -58,7 +58,7 @@ On macOS:
 > Open the environment.ts file and set apiUrl to point to the backend API (e.g., http://localhost:6868).
 
 4. Launch the application:
-> ng serve
+> ng serve --open
 
 5. Access http://localhost:4200 in a browser to view the application.
 
