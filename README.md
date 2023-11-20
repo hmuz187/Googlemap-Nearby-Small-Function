@@ -31,7 +31,7 @@ On macOS:
 ## Backend Setup (Node.js & Express)
 
 1. Clone the repository from GitHub:
-> git clone https://github.com/Googlemap-Nearby-Small-Function.git
+> git clone https://github.com/hmuz187/Googlemap-Nearby-Small-Function.git
 >
 > cd Googlemap-Nearby-Small-Function/backend
 
