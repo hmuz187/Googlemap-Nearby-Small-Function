@@ -1,0 +1,103 @@
+<app-header></app-header>
+
+<div class="h-screen bg-[#9cc0f9]">
+
+    <!-- map and choose location -->
+    <div class="bg-[#9cc0f9]">
+        <google-map height="400px" width="full" [center]="center" [zoom]="zoom" (mapClick)="addMarker($event)">
+            <map-marker [position]="markerPositions">
+            </map-marker>
+            <div *ngIf="res && res.metadata && res.metadata && res.metadata.information">
+                <map-marker *ngFor="let place of res.metadata.information"
+                    [position]="{ lat: place.geometry.location.lat, lng: place.geometry.location.lng }"
+                    [icon]="selectedType===lastSelectedType?getIconUrl(selectedType):getIconUrl(lastSelectedType)">
+                </map-marker>
+            </div>
+        </google-map>
+    </div>
+
+    <!-- Search button -->
+    <div class="bg-[#9cc0f9] flex col p-2">
+        <div class="p-4">
+            <p class="font-semibold">Your marked position</p>
+            <div class="text-white">Latitude: <span class="text-green-600 font-semibold">{{display?.lat}}</span></div>
+            <div class="text-white mb-4">Longitude: <span class="text-green-600 font-semibold">{{display?.lng}}</span>
+            </div>
+        </div>
+
+        <div class="p-4 ">
+            <select [(ngModel)]="selectedType" (change)="onTypeChange($event)"
+                class="px-4 py-2 bg-[#9cc0f9] outline-none border border-black-100 rounded text-black-500 font-medium active:scale-95 hover:bg-black-400 hover:text-[white] focus:ring-2 focus:ring-black-600 focus:ring-offset-2 disabled:bg-gray-400/80 disabled:shadow-none disabled:cursor-not-allowed transition-colors duration-200">
+                <option value="hospital">Hospital</option>
+                <option value="school">School</option>
+                <option value="park">Park</option>
+                <option value="supermarket">Supermarket</option>
+            </select>
+        </div>
+
+        <div class="p-4">
+            <button
+                class="px-4 py-2 bg-black-50 outline-none border border-black-100 rounded text-black-500 font-medium active:scale-95 hover:bg-black-400 hover:text-[white] focus:ring-2 focus:ring-black-600 focus:ring-offset-2 disabled:bg-gray-400/80 disabled:shadow-none disabled:cursor-not-allowed transition-colors duration-200"
+                (click)="getNearBy()">Explore Now</button>
+        </div>
+
+    </div>
+
+
+    <!-- result search -->
+
+    <div class="bg-[#9cc0f9]" *ngIf="res && res.metadata && res.metadata.information">
+
+        <!-- count number of place results -->
+        <!-- <div class="flex row px-10 py-2 mx-2">
+            <h2 class="text-xl font-semibold text-gray-800 capitalize">
+                <p *ngIf="res && res.metadata && res.metadata.information && res.metadata.information.length > 0">
+                    {{ res.metadata.information.length === 1 ? '1 place found!' : res.metadata.information.length + '
+                    places
+                    found!'
+                    }}
+                </p>
+                <p
+                    *ngIf="res && res.metadata.information && res.metadata.information && res.metadata.information.length === 0">
+                    No places found!
+                </p>
+            </h2>
+        </div> -->
+
+        <!-- pagination -->
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            <!-- an item -->
+            <div *ngFor="let result of getDisplayedData()">
+                <div class="rounded-lg p-2 m-2 ">
+                    <div class="flex items-center justify-between ">
+                        <h3 class="text-base font-bold text-gray-900">{{ result.name }}</h3>
+                    </div>
+                    <p class="text-sm font-normal text-gray-500">{{ result.vicinity }}</p>
+                    <div class="mt-2 flex row gap-2 items-center justify-between text-sm font-semibold text-gray-900">
+                        <div class="flex"
+                            *ngIf="result.types && result.business_status && result.geometry && result.geometry.location">
+                            <img class="mr-2 h-5 w-5 text-base text-gray-500" *ngIf="selectedType===lastSelectedType"
+                                [src]="getIconUrl(selectedType)" />
+                            <img class="mr-2 h-5 w-5 text-base text-gray-500" *ngIf="selectedType!==lastSelectedType"
+                                [src]="getIconUrl(lastSelectedType)" />
+                            <div class="flex col" *ngIf="result.types.length>0">
+                                <span class="mr-1">Lat: {{result.geometry.location.lat}}</span>
+                                <span class="mr-1">Lng: {{result.geometry.location.lng}}</span>
+                            </div>
+
+                        </div>
+                        <div class="flex items-center">
+                            <img class="mr-1 h-5 text-yellow-500" src="../../../assets/icon/star.png" alt="">
+                            {{result.types[0]}}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <mat-paginator [length]="res.metadata.information.length" [pageSize]="pageSize" (page)="pageChanged($event)">
+        </mat-paginator>
+
+    </div>
+
+</div>

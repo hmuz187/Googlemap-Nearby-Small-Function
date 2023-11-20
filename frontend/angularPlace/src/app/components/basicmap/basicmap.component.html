@@ -1,0 +1,8 @@
+<div class="">
+    <google-map height="400px" width="full" [center]="center" [zoom]="zoom" (mapClick)="addMarker($event)">
+        <!-- <map-circle #circleRef [center]="center" [options]="circleOptions">
+        </map-circle> -->
+        <map-marker [position]="markerPositions">
+        </map-marker>
+    </google-map>
+</div>

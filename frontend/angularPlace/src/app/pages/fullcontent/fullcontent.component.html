@@ -1,0 +1,76 @@
+<!-- map and choose location -->
+<div class="bg-[#9cc0f9]">
+    <google-map height="400px" width="full" [center]="center" [zoom]="zoom" (mapClick)="addMarker($event)">
+        <!-- <map-circle #circleRef [center]="center" [options]="circleOptions">
+        </map-circle> -->
+        <map-marker [position]="markerPositions">
+        </map-marker>
+        <div *ngIf="res && res.information && res.information.results">
+            <map-marker *ngFor="let place of res.information.results"
+                [position]="{ lat: place.geometry.location.lat, lng: place.geometry.location.lng }"
+                [icon]="'../../../assets/icon/hospital.png'">
+            </map-marker>
+        </div>
+    </google-map>
+</div>
+
+
+<!-- Search button -->
+<div class="bg-[#9cc0f9] flex col p-2">
+    <div class="p-4">
+        <div class="">Latitude: {{display?.lat}}</div>
+        <div class="mb-4">Longitude: {{display?.lng}}</div>
+    </div>
+
+    <div class="p-4">
+        <button
+            class="px-4 py-2 bg-black-50 outline-none border border-black-100 rounded text-black-500 font-medium active:scale-95 hover:bg-black-400 hover:text-[white] focus:ring-2 focus:ring-black-600 focus:ring-offset-2 disabled:bg-gray-400/80 disabled:shadow-none disabled:cursor-not-allowed transition-colors duration-200"
+            (click)="getNearBy()">Explore Now</button>
+    </div>
+
+</div>
+
+
+
+
+
+<!-- result search -->
+<div class="bg-[#9cc0f9]" *ngIf="res && res.information && res.information.results">
+    <div class="flex row px-2 py-2 mx-2">
+        <h1 class="text-xl font-semibold text-gray-800 capitalize">
+            <p *ngIf="res && res.information && res.information.results && res.information.results.length > 0">
+                {{ res.information.results.length === 1 ? '1 place found!' : res.information.results.length + ' places
+                found!'
+                }}
+            </p>
+            <p *ngIf="res && res.information && res.information.results && res.information.results.length === 0">
+                No places found!
+            </p>
+        </h1>
+        <div class="grid grid-cols-1 gap-8 mt-2 md:grid-cols-2 border border-red-400 rounded-lg">
+
+            <div *ngFor="let result of res.information.results">
+                <div class="flex row m-2 ">
+                    <div>
+                        <p class="ml-2 font-bold text-sm">{{ result.name }}</p>
+                    </div>
+                    <div class="flex col">
+                        <img class="object-none" src="../../../assets/icon/hospital.png" />
+                        <span class="text-sm text-white">{{ result.vicinity }}</span>
+                    </div>
+                    <div *ngIf="result.types && result.business_status && result.geometry && result.geometry.location">
+                        <p *ngIf="result.types.length>0">
+                            <span class="uppercase" >{{result.types[0]}} *** </span>
+                            <span>Location: {{result.geometry.location.lat}},{{result.geometry.location.lng}} </span>
+                        </p>
+                        <p *ngIf="result.bussiness_status === 'OPERATIONAL'">approve</p>
+                        <!-- <p *ngIf="result.types.length>0" >Type --- 
+                            <span *ngFor="let type of result.types"> - {{type}} </span>
+                        </p> -->
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>

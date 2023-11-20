@@ -1,0 +1,8 @@
+@url = http://localhost:6868
+
+###
+GET {{url}}/getip
+
+
+###
+GET {{url}}/api/admin/listPlaces

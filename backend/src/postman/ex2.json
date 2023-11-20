@@ -1,0 +1,1017 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=UTF-8
+Date: Wed, 15 Nov 2023 06:33:21 GMT
+Expires: Wed, 15 Nov 2023 06:38:21 GMT
+Cache-Control: public, max-age=300
+Vary: Accept-Language
+Server: scaffolding on HTTPServer2
+Content-Length: 41870
+X-XSS-Protection: 0
+X-Frame-Options: SAMEORIGIN
+Server-Timing: gfet4t7; dur=159
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Connection: close
+
+{
+  "html_attributions": [],
+  "next_page_token": "AcJnMuFYsDjajVCn9SPg7i0cE7uB1079BfveVDO23kJ9GpBedehFuR0-GBoc3zcBvRAZ3cfaOL2Tp747N-6UkFyFNEcuReBrg23RRtC9-W7IbPe9ZUbM-Gi4H7YdqxKPGL7ZLJzGYznw_4A-z9SBxi41V_xNAS6_iUQRbCU34vU0tDaJo26tclHnfUICBUPZg9hi_Q51tIidu26RUz9Lbgo4RCRaWB9_L29xbsrok7dXadz8_6ZfTe-ilQE0RCGqIWT7VgDSo1AIcDijPd2LTaxJr2HimFfnMrAzQQillkpVKuB5jMU6ohOji7vwTr80WDVEnO4ZTrYBJIdFcy1bmqPo1-mV_iYdZW_PeCDuMxGMzAyWjIYElzSNt8I-SpOqwqrmjleFPaen73Osazj5iVNuachzw2KPmgdXq7XR7x2_87GYUOTYsi7GUabkUglb",
+  "results": [
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 10.2085355,
+          "lng": 103.9607956
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 10.2100746302915,
+            "lng": 103.9624399802915
+          },
+          "southwest": {
+            "lat": 10.2073766697085,
+            "lng": 103.9597420197085
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+      "icon_background_color": "#909CE1",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet",
+      "name": "Saigon Phu Quoc Resort & Spa",
+      "opening_hours": {
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 814,
+          "html_attributions": [
+            "\u003ca href=\"https://maps.google.com/maps/contrib/112930199352502915580\"\u003eSaigon Phu Quoc Resort &amp; Spa\u003c/a\u003e"
+          ],
+          "photo_reference": "AcJnMuFtUOoWi5sGVr8zlhyKEMyHw_ShskjCh13aQpUQ-cURCYa7U0Fc26JtJIJmgWcztYjxWjKB40eaV1FZr8IIwqhHm00KZVtXgkAjnN2Z8tem_ugK7AjDkK3mST5goNXSkFKq8xFmM7bnTqIx34AVdEd7egstPNi7BemjKKre6N_dbzlL",
+          "width": 1200
+        }
+      ],
+      "place_id": "ChIJ7ZdqvmGMpzERyUn5myFDkRQ",
+      "plus_code": {
+        "compound_code": "6X56+C8 tt. Dương Đông, Thành phố Phú Quốc, Kiên Giang, Vietnam",
+        "global_code": "7P256X56+C8"
+      },
+      "rating": 4.2,
+      "reference": "ChIJ7ZdqvmGMpzERyUn5myFDkRQ",
+      "scope": "GOOGLE",
+      "types": [
+        "travel_agency",
+        "spa",
+        "lodging",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 1323,
+      "vicinity": "62 Đường Trần Hưng Đạo, phường, Phú Quốc"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 10.2069961,
+          "lng": 103.9629395
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 10.2082810302915,
+            "lng": 103.9641766302915
+          },
+          "southwest": {
+            "lat": 10.2055830697085,
+            "lng": 103.9614786697085
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+      "icon_background_color": "#909CE1",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet",
+      "name": "Levan Hotel Phu Quoc",
+      "photos": [
+        {
+          "height": 2048,
+          "html_attributions": [
+            "\u003ca href=\"https://maps.google.com/maps/contrib/112437707226464178654\"\u003eLevan Hotel Phu Quoc\u003c/a\u003e"
+          ],
+          "photo_reference": "AcJnMuFehWnnwIm4gMXNk5MESz9dH38mtp1dwH6ZTNxBP1uKd0T86g-QNlAVILKD2yT1QdjEeyvBFWCc-z6cN-c3r5rqEVolwihN6heuJL5FFuDgfLiYhbSsSGmQzW5xB5QmiyJimomG3WIkcVRvNUxtCFd0HLfmE0CD0SJ1WcprxKE2dmo_",
+          "width": 1367
+        }
+      ],
+      "place_id": "ChIJhcP2umGMpzERRvXsX0x-6tk",
+      "plus_code": {
+        "compound_code": "6X47+Q5 tt. Dương Đông, Thành phố Phú Quốc, Kiên Giang, Vietnam",
+        "global_code": "7P256X47+Q5"
+      },
+      "rating": 4,
+      "reference": "ChIJhcP2umGMpzERRvXsX0x-6tk",
+      "scope": "GOOGLE",
+      "types": [
+        "spa",
+        "cafe",
+        "lodging",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 168,
+      "vicinity": "79 Đường Trần Hưng Đạo, Khu phố 7, Phú Quốc"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 10.2053892,
+          "lng": 103.963726
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 10.2067115302915,
+            "lng": 103.9650274302915
+          },
+          "southwest": {
+            "lat": 10.2040135697085,
+            "lng": 103.9623294697085
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      "icon_background_color": "#FF9E67",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+      "name": "Ganesh Indian Restaurant Phu Quoc",
+      "opening_hours": {
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 3024,
+          "html_attributions": [
+            "\u003ca href=\"https://maps.google.com/maps/contrib/110163749887940820266\"\u003eKriti Maurya\u003c/a\u003e"
+          ],
+          "photo_reference": "AcJnMuFAizwR3eYDQ7ca3uCMovZPH0R7CGRhc3cMEy1fCiDsGtOJRIsY06LgfNCY0Co_eHyfUXQJfj3AHS8D8ZHnHygT1s6wYGhIKVgHXhL_RkRZntf_ka9ncjP7rB-IYNbt4uQBSbs4kdQZK2U3fRNFHtYcBrTUQed7oVU6aCEYnB9ZOQPy",
+          "width": 4032
+        }
+      ],
+      "place_id": "ChIJvQmFImKMpzERC0uGkkhqEd4",
+      "plus_code": {
+        "compound_code": "6X47+5F Dương Tơ, Thành phố Phú Quốc, Kiên Giang, Vietnam",
+        "global_code": "7P256X47+5F"
+      },
+      "price_level": 2,
+      "rating": 4.3,
+      "reference": "ChIJvQmFImKMpzERC0uGkkhqEd4",
+      "scope": "GOOGLE",
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 888,
+      "vicinity": "97 Đường Trần Hưng Đạo, Dương Tơ, Phú Quốc"
+    },
+    {
+      "business_status": "CLOSED_TEMPORARILY",
+      "geometry": {
+        "location": {
+          "lat": 10.2085347,
+          "lng": 103.9607959
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 10.2100738802915,
+            "lng": 103.9624403302915
+          },
+          "southwest": {
+            "lat": 10.2073759197085,
+            "lng": 103.9597423697085
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      "icon_background_color": "#FF9E67",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+      "name": "SGPQ Restaurant",
+      "permanently_closed": true,
+      "photos": [
+        {
+          "height": 3000,
+          "html_attributions": [
+            "\u003ca href=\"https://maps.google.com/maps/contrib/108313463998490109962\"\u003eKhuong Nguyen\u003c/a\u003e"
+          ],
+          "photo_reference": "AcJnMuFaVpVFubtrpSjRZeR1oqXlarzMpuNVSRsAqX5hxl3cYekDc5IYkf5jYIKXxYjeDwcHEcQL9Y8gPCz7qalJ-znmzeWSiUCUtnGh5e2b3zbFphKg3i_-cljrlJKGzfQOWPdg_ZmncFY9zU5tZNf-rJ7eQ0kZM_3LOidsPvGYiv2t1mWt",
+          "width": 4000
+        }
+      ],
+      "place_id": "ChIJEfMi_GGMpzER7rIg6BdvBn4",
+      "plus_code": {
+        "compound_code": "6X56+C8 tt. Dương Đông, Thành phố Phú Quốc, Kiên Giang, Vietnam",
+        "global_code": "7P256X56+C8"
+      },
+      "rating": 4.2,
+      "reference": "ChIJEfMi_GGMpzER7rIg6BdvBn4",
+      "scope": "GOOGLE",
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 5,
+      "vicinity": "62 Đường Trần Hưng Đạo, TT. Dương Đông, Phú Quốc"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 10.2089862,
+          "lng": 103.9663373
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 10.2103204802915,
+            "lng": 103.9676984302915
+          },
+          "southwest": {
+            "lat": 10.2076225197085,
+            "lng": 103.9650004697085
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      "icon_background_color": "#FF9E67",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+      "name": "Nhà hàng Sơn Trà Hill",
+      "opening_hours": {
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 2560,
+          "html_attributions": [
+            "\u003ca href=\"https://maps.google.com/maps/contrib/101622373310168825820\"\u003eSon Tra Hill&#39;s 1973 Bistro &amp; Stay phu quoc resort\u003c/a\u003e"
+          ],
+          "photo_reference": "AcJnMuGJ8KiVb3o_kPTV-QwptfGQM8Ohca5gMNOG3KMyRr9WfHCCrJYwvkELOwxsPwKWhAEatAdh5JY_IxfmxeP7hjwO-mZrnKxXQyDeCqdekJgDjE0UhvheYlcjG_bnmg2EggiF8wqgmx1F_GVlsaQNlS5W-JlYgXG6Lgz8SA5kuq6-PUZH",
+          "width": 3840
+        }
+      ],
+      "place_id": "ChIJ3-wY_GOMpzERl60Uy5PuD3E",
+      "plus_code": {
+        "compound_code": "6X58+HG tt. Dương Đông, Thành phố Phú Quốc, Kiên Giang, Vietnam",
+        "global_code": "7P256X58+HG"
+      },
+      "rating": 4.3,
+      "reference": "ChIJ3-wY_GOMpzERl60Uy5PuD3E",
+      "scope": "GOOGLE",
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 304,
+      "vicinity": "Đường Trần Hưng Đạo, TT. Dương Đông, Phú Quốc"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 10.2097672,
+          "lng": 103.9665768
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 10.2109974302915,
+            "lng": 103.9678925802915
+          },
+          "southwest": {
+            "lat": 10.2082994697085,
+            "lng": 103.9651946197085
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      "icon_background_color": "#FF9E67",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+      "name": "Chuồn Chuồn Bistro & Bar",
+      "opening_hours": {
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 3024,
+          "html_attributions": [
+            "\u003ca href=\"https://maps.google.com/maps/contrib/117522805071385528510\"\u003eChuồn Chuồn Bistro &amp; Bar\u003c/a\u003e"
+          ],
+          "photo_reference": "AcJnMuHDd6s6ax_5PiCnHrhrTFo6vavpFiqyIGXQYF2PTo5pkYtFbZ666hRdnwBP_2dO7WsS1Q_gMKR7w9qvkGILKJV_-ZTtS268ZBy3ncRVqYb8GLn7kOLLg1JKuL9ksNDRq2gR9dstY4awZkwfhHbRuvW466Cqqlx2NFudsD-w7GvgQ5XO",
+          "width": 3162
+        }
+      ],
+      "place_id": "ChIJsY399WOMpzER7lV4UDy_2w0",
+      "plus_code": {
+        "compound_code": "6X58+WJ tt. Dương Đông, Thành phố Phú Quốc, Kiên Giang, Vietnam",
+        "global_code": "7P256X58+WJ"
+      },
+      "price_level": 2,
+      "rating": 4.2,
+      "reference": "ChIJsY399WOMpzER7lV4UDy_2w0",
+      "scope": "GOOGLE",
+      "types": [
+        "restaurant",
+        "bar",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 4095,
+      "vicinity": "Dương Đông, Phú Quốc"
+    },
+    {
+      "business_status": "CLOSED_TEMPORARILY",
+      "geometry": {
+        "location": {
+          "lat": 10.2069674,
+          "lng": 103.9628234
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 10.2082808302915,
+            "lng": 103.9641102302915
+          },
+          "southwest": {
+            "lat": 10.2055828697085,
+            "lng": 103.9614122697085
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      "icon_background_color": "#FF9E67",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+      "name": "Quán Ăn Phú Quốc Sài Gòn",
+      "permanently_closed": true,
+      "photos": [
+        {
+          "height": 4000,
+          "html_attributions": [
+            "\u003ca href=\"https://maps.google.com/maps/contrib/108204957711026551060\"\u003eThảo Trịnh\u003c/a\u003e"
+          ],
+          "photo_reference": "AcJnMuHH-fV7evtOXSuOvIvzw1pRihzcaBNB_NSl0tDQ_qYsvav10aH7cATuNO6wdz6_euN2FUJ0JZXAqCbT6THaX5MGsW-bnfdrklEEvY0cMugywJgIIVTpbfJM_Lm_jC_eSYJca7rXCfzMLQrr_Qaei8H2sYNhzl0JSPrfCX8DcfgXe-6P",
+          "width": 3000
+        }
+      ],
+      "place_id": "ChIJdaKuu2GMpzERIEWe_7P6dFI",
+      "plus_code": {
+        "compound_code": "6X47+Q4 tt. Dương Đông, Thành phố Phú Quốc, Kiên Giang, Vietnam",
+        "global_code": "7P256X47+Q4"
+      },
+      "rating": 3.5,
+      "reference": "ChIJdaKuu2GMpzERIEWe_7P6dFI",
+      "scope": "GOOGLE",
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 2,
+      "vicinity": "75 Đường Trần Hưng Đạo, TT. Dương Đông, Phú Quốc"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 10.2064764,
+          "lng": 103.9631857
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 10.2077724302915,
+            "lng": 103.9644480802915
+          },
+          "southwest": {
+            "lat": 10.2050744697085,
+            "lng": 103.9617501197085
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      "icon_background_color": "#FF9E67",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+      "name": "Phở bát đá thủy mộc",
+      "opening_hours": {
+        "open_now": true
+      },
+      "place_id": "ChIJpbl3hJONpzERjv9uZ5KkmD0",
+      "plus_code": {
+        "compound_code": "6X47+H7 tt. Dương Đông, Thành phố Phú Quốc, Kiên Giang, Vietnam",
+        "global_code": "7P256X47+H7"
+      },
+      "reference": "ChIJpbl3hJONpzERjv9uZ5KkmD0",
+      "scope": "GOOGLE",
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "vicinity": "79 Đường Trần Hưng Đạo, TT. Dương Đông, Phú Quốc"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 10.206497,
+          "lng": 103.9630896
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 10.2078113302915,
+            "lng": 103.9643819302915
+          },
+          "southwest": {
+            "lat": 10.2051133697085,
+            "lng": 103.9616839697085
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      "icon_background_color": "#FF9E67",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+      "name": "Hải sản Hưng Vy",
+      "opening_hours": {
+        "open_now": false
+      },
+      "photos": [
+        {
+          "height": 3024,
+          "html_attributions": [
+            "\u003ca href=\"https://maps.google.com/maps/contrib/116483768383602419575\"\u003eJustyna p.a.\u003c/a\u003e"
+          ],
+          "photo_reference": "AcJnMuG1VhIAL7dNwCxTypzME6FckHAgCARojpnznnI16ZQ0dW_bXygNlrE7zjt9pH74w5WcgO0t9ukiQ1tavnnn_tHOP2KngDYZrEjKmVcH5Iiss5Ej-K8Pw_dkPoKKK6sR6CrP3J53vDtEkJEGYxc8zlogRWJyRjjn9448IxhwlDH6yWk",
+          "width": 4032
+        }
+      ],
+      "place_id": "ChIJFyIM5FeNpzER0NwSGMSisNk",
+      "plus_code": {
+        "compound_code": "6X47+H6 tt. Dương Đông, Thành phố Phú Quốc, Kiên Giang, Vietnam",
+        "global_code": "7P256X47+H6"
+      },
+      "rating": 4.7,
+      "reference": "ChIJFyIM5FeNpzER0NwSGMSisNk",
+      "scope": "GOOGLE",
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 13,
+      "vicinity": "79 Đường Trần Hưng Đạo, Khu phố 7, Phú Quốc"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 10.2070968,
+          "lng": 103.9627327
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 10.2084132302915,
+            "lng": 103.9640248802915
+          },
+          "southwest": {
+            "lat": 10.2057152697085,
+            "lng": 103.9613269197085
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      "icon_background_color": "#FF9E67",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+      "name": "Bún quậy Kiến-Xây ( A-B noodles )",
+      "opening_hours": {
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 2268,
+          "html_attributions": [
+            "\u003ca href=\"https://maps.google.com/maps/contrib/118076455994414565946\"\u003eBún quậy Kiến Xây ( local noodles )\u003c/a\u003e"
+          ],
+          "photo_reference": "AcJnMuGT4aN-lAgZgfplts6ySKCAHn0ORc16vSJigj1DNdU9CbnSNE2TnIWIspUUUifjuhi3IR0pKiR4dbOQGlpgRtt8V2pbWtoWHvqHd1sySc9PN1pj24FFUYHNK59_BBmaMwlU_oH60eaGiQDrJ0uv_2Vbi0jYsMeFbUxiNItFM-nb0mbW",
+          "width": 4032
+        }
+      ],
+      "place_id": "ChIJR1rvyAmNpzERHEdIhXDMsII",
+      "plus_code": {
+        "compound_code": "6X47+R3 tt. Dương Đông, Thành phố Phú Quốc, Kiên Giang, Vietnam",
+        "global_code": "7P256X47+R3"
+      },
+      "rating": 4.2,
+      "reference": "ChIJR1rvyAmNpzERHEdIhXDMsII",
+      "scope": "GOOGLE",
+      "types": [
+        "tourist_attraction",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 1089,
+      "vicinity": "71A Đường Trần Hưng Đạo, TT. Dương Đông, Phú Quốc"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 10.2071987,
+          "lng": 103.9626876
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 10.2085134302915,
+            "lng": 103.9639742802915
+          },
+          "southwest": {
+            "lat": 10.2058154697085,
+            "lng": 103.9612763197085
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      "icon_background_color": "#FF9E67",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+      "name": "Quán Cơm Yên Hà - Cửa Cạn",
+      "photos": [
+        {
+          "height": 3000,
+          "html_attributions": [
+            "\u003ca href=\"https://maps.google.com/maps/contrib/116169078501806526199\"\u003emami h\u003c/a\u003e"
+          ],
+          "photo_reference": "AcJnMuGhNMpTUep-GqjRFW674ESQtnvDiJt57MWrOMISJhzlAFDk8aJE9MjKcDK_lzvVpDQ38Aa82bvNLut7DaKkxu_uc9zIvCeztKkR7jlrdnBz7fcVfh5Z7KeMa59DZrQkt8cAkjr7vmnLrKNsCAPvJNjtvRkz0usyNc-gE-1qGtOOlK50",
+          "width": 5333
+        }
+      ],
+      "place_id": "ChIJF4uavmGMpzERPO3HN78diXI",
+      "rating": 4.5,
+      "reference": "ChIJF4uavmGMpzERPO3HN78diXI",
+      "scope": "GOOGLE",
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 41,
+      "vicinity": "6X47+V3G, Đường Trần Hưng Đạo, TT. Dương Đông, Phú Quốc"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 10.2062758,
+          "lng": 103.9632592
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 10.2075835302915,
+            "lng": 103.9645406802915
+          },
+          "southwest": {
+            "lat": 10.2048855697085,
+            "lng": 103.9618427197085
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      "icon_background_color": "#FF9E67",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+      "name": "Tram Tram’s Banh Mi",
+      "opening_hours": {
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 4000,
+          "html_attributions": [
+            "\u003ca href=\"https://maps.google.com/maps/contrib/114652013448638128078\"\u003eJimin Ham\u003c/a\u003e"
+          ],
+          "photo_reference": "AcJnMuE3wVayTd9zcXB5FYeEJ_IPcC3qj5xTd1BcyZtXromN5c94RFZSr1tH7DIpxbft14-9RtobWYryiI5_0UiFE8L-6omWRzIEle107g1KfT8LzToFuaIzMoXRdjD80Ul0saB6eUTy-uxhZ4J20S1N4JaR4aa58r36OEDxG8pP53udH_6x",
+          "width": 3000
+        }
+      ],
+      "place_id": "ChIJg1ksqtqNpzER3W4HrVMz7hE",
+      "plus_code": {
+        "compound_code": "6X47+G8 Dương Tơ, Thành phố Phú Quốc, Kiên Giang, Vietnam",
+        "global_code": "7P256X47+G8"
+      },
+      "rating": 4.6,
+      "reference": "ChIJg1ksqtqNpzER3W4HrVMz7hE",
+      "scope": "GOOGLE",
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 300,
+      "vicinity": "83 Đường Trần Hưng Đạo, Dương Tơ, Phú Quốc"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 10.2068624,
+          "lng": 103.9626233
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 10.2082318802915,
+            "lng": 103.9640080802915
+          },
+          "southwest": {
+            "lat": 10.2055339197085,
+            "lng": 103.9613101197085
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      "icon_background_color": "#FF9E67",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+      "name": "Bánh canh MINH THƯ",
+      "opening_hours": {
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 2304,
+          "html_attributions": [
+            "\u003ca href=\"https://maps.google.com/maps/contrib/107836460211662758251\"\u003eBánh canh MINH THƯ\u003c/a\u003e"
+          ],
+          "photo_reference": "AcJnMuGNevtu2H0NWryVNJBrP_R9kzH3193PyMByAE_TK-bHcBFvQYbqokBEtTqjFe7PJk79cLuGb48fyEOE-x4W6571GlonJMvxcIqQikNjXEnwFbiLfx2vqgbLOUlxMPNNq9l-Vh8VD0BwIn4sxiD9PcCu-bpWSAqlZhwwFz8k0H0EEAU4",
+          "width": 4096
+        }
+      ],
+      "place_id": "ChIJy_RQq3WNpzERVZVHHvNAXUw",
+      "plus_code": {
+        "compound_code": "6X47+P2 tt. Dương Đông, Thành phố Phú Quốc, Kiên Giang, Vietnam",
+        "global_code": "7P256X47+P2"
+      },
+      "rating": 4.4,
+      "reference": "ChIJy_RQq3WNpzERVZVHHvNAXUw",
+      "scope": "GOOGLE",
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 152,
+      "vicinity": "70 Đường Trần Hưng Đạo, TT. Dương Đông, Phú Quốc"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 10.206459,
+          "lng": 103.9628653
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 10.2078277302915,
+            "lng": 103.9642487802915
+          },
+          "southwest": {
+            "lat": 10.2051297697085,
+            "lng": 103.9615508197085
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      "icon_background_color": "#FF9E67",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+      "name": "Hải sản Phố Đêm",
+      "photos": [
+        {
+          "height": 3024,
+          "html_attributions": [
+            "\u003ca href=\"https://maps.google.com/maps/contrib/111371850000184568752\"\u003eHải sản Phố Đêm\u003c/a\u003e"
+          ],
+          "photo_reference": "AcJnMuGxBvf7BvIiLTIIeuKY7p-6lqVv6yRqKNlmrRvST9nSemVg0QO1oTfvgsovKa18vbKBOLv0KJLOSNSfwJLzzy8YtF6vBRsyknrMdD2DKetAhfP2a64CLSUkB_NHohDrQCxV619ai0kIYhi4GRsL1XvZa5AtrHuqg4afg0gwvQiUxcbH",
+          "width": 4032
+        }
+      ],
+      "place_id": "ChIJ2cYGxlqNpzERRVXTAD2rXHs",
+      "plus_code": {
+        "compound_code": "6X47+H4 tt. Dương Đông, Thành phố Phú Quốc, Kiên Giang, Vietnam",
+        "global_code": "7P256X47+H4"
+      },
+      "rating": 3.7,
+      "reference": "ChIJ2cYGxlqNpzERRVXTAD2rXHs",
+      "scope": "GOOGLE",
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 3,
+      "vicinity": "68 Đường Trần Hưng Đạo, TT. Dương Đông, Phú Quốc"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 10.2075856,
+          "lng": 103.9625736
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 10.2088782302915,
+            "lng": 103.9638200802915
+          },
+          "southwest": {
+            "lat": 10.2061802697085,
+            "lng": 103.9611221197085
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      "icon_background_color": "#FF9E67",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+      "name": "Hon Viet Clayport Restaurant",
+      "opening_hours": {
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 4032,
+          "html_attributions": [
+            "\u003ca href=\"https://maps.google.com/maps/contrib/111336655342050848430\"\u003eBùi Huy\u003c/a\u003e"
+          ],
+          "photo_reference": "AcJnMuHDP7JMq1vYDCwtXthIbX1Lx8r5dctXlEU5llJWSFM12ywY3qMU8L1ssv5d8MogOhSTQMz2zX3xIAsKcAashcRospVTxTgd4ZSDU1nCvE2KQk13-DNtY2ujkz2yXavWqgWV4lpyM67SVmqPsmNpgIfgZqjmdxbBh7QBXMd-h9A_xwZq",
+          "width": 3024
+        }
+      ],
+      "place_id": "ChIJg6-YlWGMpzERvaktjJauZQQ",
+      "plus_code": {
+        "compound_code": "6X57+22 tt. Dương Đông, Thành phố Phú Quốc, Kiên Giang, Vietnam",
+        "global_code": "7P256X57+22"
+      },
+      "rating": 2.2,
+      "reference": "ChIJg6-YlWGMpzERvaktjJauZQQ",
+      "scope": "GOOGLE",
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 15,
+      "vicinity": "Dương Đông - Cửa Cạn, 72 Trần Hưng Đạo, Duong Dong, tt. Dương Đông, tp. tp. Vietnam, Dương Đông - Cửa Cạn, Thành phố Phú Quốc"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 10.2062994,
+          "lng": 103.9628698
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 10.2076897302915,
+            "lng": 103.9642864302915
+          },
+          "southwest": {
+            "lat": 10.2049917697085,
+            "lng": 103.9615884697085
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      "icon_background_color": "#FF9E67",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+      "name": "Cơm 76",
+      "photos": [
+        {
+          "height": 2000,
+          "html_attributions": [
+            "\u003ca href=\"https://maps.google.com/maps/contrib/117304221697024279226\"\u003eAgustin Catala\u003c/a\u003e"
+          ],
+          "photo_reference": "AcJnMuEyFcBe9ORx9xF9NfJAc6yVaqGtYIhhr7KbfycfDW7gr_uYSk7Px5pVwoJYBVQRiyHaW1j1p8VosHqOPviviia8A3Hrj3jO7UblJEbSHe7AyibuJ4PL7NuaYOyjdoYb6JwJQP5N9mRGSs6qPUV-Kf7qnn9ZVtUak4yCsD5-xqOPDkWe",
+          "width": 1500
+        }
+      ],
+      "place_id": "ChIJX25qsmGMpzERGPrPpjmS43Q",
+      "plus_code": {
+        "compound_code": "6X47+G4 tt. Dương Đông, Thành phố Phú Quốc, Kiên Giang, Vietnam",
+        "global_code": "7P256X47+G4"
+      },
+      "rating": 3.3,
+      "reference": "ChIJX25qsmGMpzERGPrPpjmS43Q",
+      "scope": "GOOGLE",
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 4,
+      "vicinity": "Vietnam"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 10.2064821,
+          "lng": 103.962661
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 10.2078916302915,
+            "lng": 103.9641156802915
+          },
+          "southwest": {
+            "lat": 10.2051936697085,
+            "lng": 103.9614177197085
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      "icon_background_color": "#FF9E67",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+      "name": "华人轩海鲜楼",
+      "opening_hours": {
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 4608,
+          "html_attributions": [
+            "\u003ca href=\"https://maps.google.com/maps/contrib/107399017365316375037\"\u003e许方楷\u003c/a\u003e"
+          ],
+          "photo_reference": "AcJnMuFnO2SXvDyC939_CydSqo6u1YkItYqB-EzySmX62tY1Tv9CeYxkOC4C8iiJ863wlBCNNqF4khjon1CDSywfqoRiLKc1zjMf91LFTP03DyA-7urHx0-Tyj2l1mGCynGE1FE2MFg-Kj-42qb6oTAJ_BQuOrEH96tR7muRtqXLyu3hMU2p",
+          "width": 3456
+        }
+      ],
+      "place_id": "ChIJx93x5v2NpzERLZufijL2nn4",
+      "plus_code": {
+        "compound_code": "6X47+H3 tt. Dương Đông, Thành phố Phú Quốc, Kiên Giang, Vietnam",
+        "global_code": "7P256X47+H3"
+      },
+      "rating": 1,
+      "reference": "ChIJx93x5v2NpzERLZufijL2nn4",
+      "scope": "GOOGLE",
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 1,
+      "vicinity": "74 Đường Trần Hưng Đạo, TT. Dương Đông, Phú Quốc"
+    },
+    {
+      "business_status": "CLOSED_TEMPORARILY",
+      "geometry": {
+        "location": {
+          "lat": 10.2062942,
+          "lng": 103.9628603
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 10.2076873802915,
+            "lng": 103.9642815302915
+          },
+          "southwest": {
+            "lat": 10.2049894197085,
+            "lng": 103.9615835697085
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      "icon_background_color": "#FF9E67",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+      "name": "Hai San Nuong Da",
+      "permanently_closed": true,
+      "photos": [
+        {
+          "height": 1872,
+          "html_attributions": [
+            "\u003ca href=\"https://maps.google.com/maps/contrib/103411172166518208100\"\u003eThinh Tran\u003c/a\u003e"
+          ],
+          "photo_reference": "AcJnMuEN7Mhy5jxO1uV4Ekq0NrxugKn7IgvjKJtYo6C4evy4hwuBWX1uVlSp41Y3U9Kld144IUrfkxM2GirPezDmHsuAjn87MD21Knwj9w80skfnkbt5Ow_5AWXY1p3X7qoO6-_a8fkSWAITSpiHZLCjrYJf57OWQ7rU70mgtMHARXnQdZ6v",
+          "width": 3328
+        }
+      ],
+      "place_id": "ChIJQ4JgsWGMpzERH-2P1jHdD8c",
+      "plus_code": {
+        "compound_code": "6X47+G4 tt. Dương Đông, Thành phố Phú Quốc, Kiên Giang, Vietnam",
+        "global_code": "7P256X47+G4"
+      },
+      "reference": "ChIJQ4JgsWGMpzERH-2P1jHdD8c",
+      "scope": "GOOGLE",
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "vicinity": "76 Đường Trần Hưng Đạo, Dương Tơ, Phú Quốc"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 10.2064817,
+          "lng": 103.96266
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 10.2078914802915,
+            "lng": 103.9641151802915
+          },
+          "southwest": {
+            "lat": 10.2051935197085,
+            "lng": 103.9614172197085
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      "icon_background_color": "#FF9E67",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+      "name": "Bánh Mì Heo Quay",
+      "place_id": "ChIJe-O8sGGMpzER9GVtcyCXRZY",
+      "plus_code": {
+        "compound_code": "6X47+H3 tt. Dương Đông, Thành phố Phú Quốc, Kiên Giang, Vietnam",
+        "global_code": "7P256X47+H3"
+      },
+      "reference": "ChIJe-O8sGGMpzER9GVtcyCXRZY",
+      "scope": "GOOGLE",
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "vicinity": "74 Đường Trần Hưng Đạo, TT. Dương Đông, Phú Quốc"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 10.2064809,
+          "lng": 103.9626587
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 10.2078910802915,
+            "lng": 103.9641145302915
+          },
+          "southwest": {
+            "lat": 10.2051931197085,
+            "lng": 103.9614165697085
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      "icon_background_color": "#FF9E67",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+      "name": "BBQ NGOI",
+      "photos": [
+        {
+          "height": 3456,
+          "html_attributions": [
+            "\u003ca href=\"https://maps.google.com/maps/contrib/111972524015923360125\"\u003eIG\u003c/a\u003e"
+          ],
+          "photo_reference": "AcJnMuGcLh7oqeB7fRHWrEXJaGRnWpn3RxVyKSeT1GK_J3ONZ2_I6H0JnM21RTRk9rpc0rFAYgADTCapMP7HhnaBEEuxvzf25zlAHxcfWoYoTFAhpS7VOzRdXWcV2nuJwTiOXnNyvVh2YL6Ct29tK8IiymqLBFIt6ZHnMbTeO1zDEc_QyHwo",
+          "width": 4608
+        }
+      ],
+      "place_id": "ChIJa3Gx2i2NpzER1g4qzyLMTDM",
+      "plus_code": {
+        "compound_code": "6X47+H3 tt. Dương Đông, Thành phố Phú Quốc, Kiên Giang, Vietnam",
+        "global_code": "7P256X47+H3"
+      },
+      "rating": 4.2,
+      "reference": "ChIJa3Gx2i2NpzER1g4qzyLMTDM",
+      "scope": "GOOGLE",
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 5,
+      "vicinity": "74 Đường Trần Hưng Đạo, TT. Dương Đông, Phú Quốc"
+    }
+  ],
+  "status": "OK"
+}

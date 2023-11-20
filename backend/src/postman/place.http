@@ -1,0 +1,20 @@
+@url = https://maps.googleapis.com/maps/api/place/nearbysearch/json
+
+###
+GET {{url}}
+?location=-33.8670522%2C151.1957362
+&radius=500
+&type=restaurant
+&key=AbCdEfGhIjKlMnOpQrStUvWxYz
+
+###
+GET {{url}}
+?location=10.20709480855126,103.96346134811829
+&radius=50000
+&type=supermarket
+&key=AIzaSyBsrumK-gbhb_WgASL9XpDt2y8E7KPIdVo
+
+
+###
+GET https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=10.20709480855126,103.96346134811829&radius=2000&type=hospital&key=AIzaSyBsrumK-gbhb_WgASL9XpDt2y8E7KPIdVo
+

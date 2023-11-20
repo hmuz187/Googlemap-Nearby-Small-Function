@@ -1,0 +1,12 @@
+Content-Type: application/json
+
+
+Share Google Maps API Key
+STT	Google Maps API Key	Tình trạng
+1	AIzaSyDNI_ZWPqvdS6r6gPVO50I4TlYkfkZdXh8	Live
+2	AIzaSyDaOulQACiJzBfqumbsqg_-vKha8fCnL-s	Live
+3	AIzaSyDc7PnOq3Hxzq6dxeUVaY8WGLHIePl0swY	Live
+4	AIzaSyDWTx7bREpM5B6JKdbzOvMW-RRlhkukmVE	Live
+5	AIzaSyCJqpC7oo-YYJJ1pRVZJgf84qExlHZCWSc	Live
+6	AIzaSyA66KwUrjxcFG5u0exynlJ45CrbrNe3hEc	Live
+7	AIzaSyBS6lGj7CsMDE5O9bMEf3I3anmfn34OBlA	Live

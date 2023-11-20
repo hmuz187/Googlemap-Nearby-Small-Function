@@ -1,0 +1,900 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=UTF-8
+Date: Sat, 18 Nov 2023 16:39:02 GMT
+Expires: Sat, 18 Nov 2023 16:44:02 GMT
+Cache-Control: public, max-age=300
+Vary: Accept-Language
+Server: scaffolding on HTTPServer2
+Content-Length: 36522
+X-XSS-Protection: 0
+X-Frame-Options: SAMEORIGIN
+Server-Timing: gfet4t7; dur=168
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Connection: close
+
+{
+  "html_attributions": [],
+  "next_page_token": "AcJnMuFwx4lIH4fc5vbz0OhoAz5IILcKRNvm8ENkxDolOvnZ6c2z65Gv-OtdP82MF4fRv3qO3p6JnGrIRmSlqJKz4s8JNxijGSpkMVB9lLtSlrowz64Ft_EQ__lsQHxMbkPE_ynt8jj8Xuv6F8Ky5nzRT1sVqzBd8m8keJztU_25MUdfihAwt8-8si9G59UjgEFrDOMglg8Y4kz9YBM-JQ3xbbL_Dvi4EamHH3Qo0LdgUFpsdMg8zC9WWyOBQo0Q0JgxmCQ9C75icds3Q5bAj4dA9qoI8JHWqF47g3TKj2cSRu_r78gfRMWJPETA4M58JmwPFUoSjnIkHBUZsjlMJZcMFuNMomFLRSkFVhEoOVKIf0exvuTDyOhoZvQzPlHtCopx-iL001uh-KW_TlryhTKJA-MgYjF5S0Y0J0D0W61xzCJKlgV4ziupQjs",
+  "results": [
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 10.222836,
+          "lng": 103.9768088
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 10.2241849802915,
+            "lng": 103.9781577802915
+          },
+          "southwest": {
+            "lat": 10.2214870197085,
+            "lng": 103.9754598197085
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png",
+      "icon_background_color": "#7B9EB0",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/school_pinlet",
+      "name": "Trung Tâm GDTX Phú Quốc",
+      "opening_hours": {
+        "open_now": false
+      },
+      "photos": [
+        {
+          "height": 9280,
+          "html_attributions": [
+            "\u003ca href=\"https://maps.google.com/maps/contrib/100250436260599600083\"\u003ePhat93\u003c/a\u003e"
+          ],
+          "photo_reference": "AcJnMuGhWBtkLwcxRFHxz75eONhMh06xOrmNR-W2OljCrjgtF7nNvDZf9EKAsvUpDT3yxf2-NR2lMQ7U8tiychCe6QnFtnkoVRTyzblMA3wAbBQOrm_jb51zlc4AH139Oxor4ZX3G_B4bYnUsZc8ZlzEImu34kzcn1hIRBUx5HPTfiKE4Pb-",
+          "width": 6944
+        }
+      ],
+      "place_id": "ChIJebcCanaMpzERl_CTvwWGnoc",
+      "rating": 3.8,
+      "reference": "ChIJebcCanaMpzERl_CTvwWGnoc",
+      "scope": "GOOGLE",
+      "types": [
+        "school",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 11,
+      "vicinity": "6XFG+4PM, Dương Đông, Phú Quốc"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 10.2212628,
+          "lng": 103.9648729
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 10.2226067302915,
+            "lng": 103.9663221302915
+          },
+          "southwest": {
+            "lat": 10.2199087697085,
+            "lng": 103.9636241697085
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png",
+      "icon_background_color": "#7B9EB0",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/school_pinlet",
+      "name": "Trường Tiểu học Dương Đông 4",
+      "opening_hours": {
+        "open_now": false
+      },
+      "photos": [
+        {
+          "height": 3024,
+          "html_attributions": [
+            "\u003ca href=\"https://maps.google.com/maps/contrib/108317265938207261186\"\u003eKhanh Luu\u003c/a\u003e"
+          ],
+          "photo_reference": "AcJnMuGHVJwxSYgvzVIoAqmHHTjAIOawQI3sw41PMSDX3bxdU0PcACnNtQhjuyOI8xcatq7tUC_0OYFspxqPQfiYyWqGuQOG_FIY-huH0Ao2RNldqJGd3XE_6yH7XzUPHVDax6qO8659H-VHSjW6YpmYBTMkOC4WyDED1xd2XWBtLbthPxMu",
+          "width": 4032
+        }
+      ],
+      "place_id": "ChIJQ5Nl7H6MpzER1Ff7vETOVb0",
+      "rating": 3.8,
+      "reference": "ChIJQ5Nl7H6MpzER1Ff7vETOVb0",
+      "scope": "GOOGLE",
+      "types": [
+        "primary_school",
+        "school",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 20,
+      "vicinity": "đk, Đường Nguyễn Huệ, TT. Dương Đông, Phú Quốc"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 10.2159753,
+          "lng": 103.9594298
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 10.2174506302915,
+            "lng": 103.9608525802915
+          },
+          "southwest": {
+            "lat": 10.2147526697085,
+            "lng": 103.9581546197085
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png",
+      "icon_background_color": "#7B9EB0",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/school_pinlet",
+      "name": "Trường mầm non Sao Đỏ Phú Quốc",
+      "place_id": "ChIJ___vlYeMpzER6dSj7nJJrFY",
+      "reference": "ChIJ___vlYeMpzER6dSj7nJJrFY",
+      "scope": "GOOGLE",
+      "types": [
+        "school",
+        "point_of_interest",
+        "establishment"
+      ],
+      "vicinity": "6X85+9QV, Đường Mạc Thiên Tích, TT. Dương Đông, Phú Quốc"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 10.2127086,
+          "lng": 103.9797531
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 10.2140945302915,
+            "lng": 103.9811809302915
+          },
+          "southwest": {
+            "lat": 10.2113965697085,
+            "lng": 103.9784829697085
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+      "icon_background_color": "#7B9EB0",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+      "name": "Cty TNHH Hoàng Long TA - CN Phú Quốc",
+      "opening_hours": {
+        "open_now": false
+      },
+      "photos": [
+        {
+          "height": 1536,
+          "html_attributions": [
+            "\u003ca href=\"https://maps.google.com/maps/contrib/113110826801719917090\"\u003eCty TNHH Hoàng Long TA - CN Phú Quốc\u003c/a\u003e"
+          ],
+          "photo_reference": "AcJnMuHSy8jfNI0bfQE80sEHZ31RizTjVLJmR1frMzOfDMe4RSN7ysRvcFjzYfvORsDMnLqbbbPOtW4h-DGs3ikUKqXm0IcTZy1Y3eDQuPSTaeAoq65toPLciIDTzQZoLWcnRxmwXd5TKdhhisKyJFiQ8FIXt9PNd-_gpzR2fZmg127Qu_M",
+          "width": 2048
+        }
+      ],
+      "place_id": "ChIJ_5PyfH2MpzERp0onrPTIk5k",
+      "plus_code": {
+        "compound_code": "6X7H+3W tt. Dương Đông, Thành phố Phú Quốc, Kiên Giang, Vietnam",
+        "global_code": "7P256X7H+3W"
+      },
+      "reference": "ChIJ_5PyfH2MpzERp0onrPTIk5k",
+      "scope": "GOOGLE",
+      "types": [
+        "accounting",
+        "finance",
+        "school",
+        "point_of_interest",
+        "establishment"
+      ],
+      "vicinity": "220 đường 30/4, Khu Phố 1, TT.Dương Đông, Huyện Phú Quốc"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 10.2220668,
+          "lng": 103.972828
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 10.2234331802915,
+            "lng": 103.9740932302915
+          },
+          "southwest": {
+            "lat": 10.2207352197085,
+            "lng": 103.9713952697085
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png",
+      "icon_background_color": "#7B9EB0",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/school_pinlet",
+      "name": "Phu Quoc high School",
+      "opening_hours": {
+        "open_now": false
+      },
+      "photos": [
+        {
+          "height": 960,
+          "html_attributions": [
+            "\u003ca href=\"https://maps.google.com/maps/contrib/102573776840985380754\"\u003eHải Nguyễn\u003c/a\u003e"
+          ],
+          "photo_reference": "AcJnMuGLFbrRUbbyrrSYrcHmLU4d0EJ1YaIT2BEjEXywbhB2WB4DwuMjEZKC6tKhgeV-rUZ2osaMdjzI8F6YOBXXGizaFjW6h16DUWEcrtKm-9vu-eqP_6Z3I0HwOTQ0PsNOcC_ycZ87CfOOQk-s9LKUhR2E7myog-WYfMtVs-hAgTnx7EBW",
+          "width": 1280
+        }
+      ],
+      "place_id": "ChIJtx8tjHeMpzERB4DR1XZkbwE",
+      "rating": 4.3,
+      "reference": "ChIJtx8tjHeMpzERB4DR1XZkbwE",
+      "scope": "GOOGLE",
+      "types": [
+        "secondary_school",
+        "school",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 28,
+      "vicinity": "6XCF+R4G, Hùng Vương, TT. Dương Đông, Phú Quốc"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 10.2345181,
+          "lng": 103.9676353
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 10.2358670802915,
+            "lng": 103.9689842802915
+          },
+          "southwest": {
+            "lat": 10.2331691197085,
+            "lng": 103.9662863197085
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png",
+      "icon_background_color": "#7B9EB0",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/school_pinlet",
+      "name": "Trường THPT Dương Đông",
+      "opening_hours": {
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 720,
+          "html_attributions": [
+            "\u003ca href=\"https://maps.google.com/maps/contrib/112110761341800715607\"\u003eTrần Phong\u003c/a\u003e"
+          ],
+          "photo_reference": "AcJnMuE8LMjwG6lzxQpJxIM8vr0Nf3IWfZ0-hK1u9jStXziTuJyBq-soo0KEtM4qhhyJ7myENWpHOPqRC-oS6Yw_1WsdXZ5FdJRyX9CqFS3Hfi62xLhs42D55tGtyaYJR3g_VEm3GXHF2nH7p6OYkinSpe9W1dXezC32Sa3JurVCfdqpdA5l",
+          "width": 960
+        }
+      ],
+      "place_id": "ChIJX0u9YISLpzER73lJM2nd0ic",
+      "rating": 3.3,
+      "reference": "ChIJX0u9YISLpzER73lJM2nd0ic",
+      "scope": "GOOGLE",
+      "types": [
+        "school",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 17,
+      "vicinity": "6XM9+R32, Dương Đông, Phú Quốc"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 10.2005611,
+          "lng": 103.9658053
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 10.2019973802915,
+            "lng": 103.9671709302915
+          },
+          "southwest": {
+            "lat": 10.1992994197085,
+            "lng": 103.9644729697085
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png",
+      "icon_background_color": "#7B9EB0",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/school_pinlet",
+      "name": "Trường Tiểu Học Dương Đông 1",
+      "place_id": "ChIJrzH9W16MpzERT3zpOwZW-Yk",
+      "plus_code": {
+        "compound_code": "6X28+68 Dương Tơ, Thành phố Phú Quốc, Kiên Giang, Vietnam",
+        "global_code": "7P256X28+68"
+      },
+      "reference": "ChIJrzH9W16MpzERT3zpOwZW-Yk",
+      "scope": "GOOGLE",
+      "types": [
+        "school",
+        "point_of_interest",
+        "establishment"
+      ],
+      "vicinity": "102 Đường Trần Hưng Đạo, Dương Tơ, Phú Quốc"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 10.2149801,
+          "lng": 103.9613914
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 10.2164168802915,
+            "lng": 103.9627939302915
+          },
+          "southwest": {
+            "lat": 10.2137189197085,
+            "lng": 103.9600959697085
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png",
+      "icon_background_color": "#7B9EB0",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/school_pinlet",
+      "name": "Trường THCS Dương Đông 2",
+      "opening_hours": {
+        "open_now": false
+      },
+      "photos": [
+        {
+          "height": 371,
+          "html_attributions": [
+            "\u003ca href=\"https://maps.google.com/maps/contrib/114026097882131217958\"\u003eAnh Huy Trần\u003c/a\u003e"
+          ],
+          "photo_reference": "AcJnMuGc6pfGfMvdbYYZcXaYap8VsToejLKAdVX8PA-j9JKmEVehvNc9uH-8DmzdMq3RE0ZdYPbaZ0jAtjgolhoB6FuxPJLYQSdpymloCTkbZBiLNY0iw7o5i-UYaa8XN-Lw_2mQQPvgZoDrNXPwBWpZZFbmPrllgkd0Rcmr-LXtitg_gDh7",
+          "width": 660
+        }
+      ],
+      "place_id": "ChIJtcdmqXONpzER5FMTeAA6BmA",
+      "plus_code": {
+        "compound_code": "6X76+XH tt. Dương Đông, Thành phố Phú Quốc, Kiên Giang, Vietnam",
+        "global_code": "7P256X76+XH"
+      },
+      "rating": 3.4,
+      "reference": "ChIJtcdmqXONpzER5FMTeAA6BmA",
+      "scope": "GOOGLE",
+      "types": [
+        "school",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 5,
+      "vicinity": "16 Đường 30 Tháng 4, Khu 1, Phú Quốc"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 10.2152525,
+          "lng": 103.9609801
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 10.2166739802915,
+            "lng": 103.9623704802915
+          },
+          "southwest": {
+            "lat": 10.2139760197085,
+            "lng": 103.9596725197085
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png",
+      "icon_background_color": "#7B9EB0",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/school_pinlet",
+      "name": "Trường Mầm Non Khải Trí",
+      "opening_hours": {
+        "open_now": false
+      },
+      "photos": [
+        {
+          "height": 3637,
+          "html_attributions": [
+            "\u003ca href=\"https://maps.google.com/maps/contrib/101827445268468269160\"\u003ehuynh hoc sinh phu\u003c/a\u003e"
+          ],
+          "photo_reference": "AcJnMuHRScF0xaDRA5EFBD2COs-dWGUsmJaGNofewm7OEzJCFCPcra9uIBa3MOnkOKoJTI--JLDBiFSyLPHqBVLX6j4682pYa-FoNhYp-ja48y17eoBXPmtSH1HhuNjcyC75aW3dkQ8nAYyvXEd7u_RkOrcVYmmWgzcPPvQJg6sZZNuppURX",
+          "width": 5455
+        }
+      ],
+      "place_id": "ChIJmUqqXn2MpzERE2kWYrrQbQc",
+      "plus_code": {
+        "compound_code": "6X86+49 tt. Dương Đông, Thành phố Phú Quốc, Kiên Giang, Vietnam",
+        "global_code": "7P256X86+49"
+      },
+      "rating": 4,
+      "reference": "ChIJmUqqXn2MpzERE2kWYrrQbQc",
+      "scope": "GOOGLE",
+      "types": [
+        "school",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 2,
+      "vicinity": "Số 14 Đường 30 Tháng 4, KP 1, Phú Quốc"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 10.2153252,
+          "lng": 103.9604611
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 10.2168277802915,
+            "lng": 103.9618946802915
+          },
+          "southwest": {
+            "lat": 10.2141298197085,
+            "lng": 103.9591967197085
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png",
+      "icon_background_color": "#7B9EB0",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/school_pinlet",
+      "name": "Trường Tiểu học Dương Đông 1",
+      "photos": [
+        {
+          "height": 3648,
+          "html_attributions": [
+            "\u003ca href=\"https://maps.google.com/maps/contrib/110714049572187938267\"\u003eKarim Nguyen\u003c/a\u003e"
+          ],
+          "photo_reference": "AcJnMuHbsMEddlLHlTjw18cO-dlvzqfbV9zwnn837YgqBNRxJwDo3yNqIyuu1QOjpGkAgDlHZvPTXRcOCUkhPeOG8DKCBLM3mK6ozCY_oD4z7J2W8NWAadtkReT-NJFtvM3mEqkT6q9Dj4TJ0Zt7GqfkbkjVLAMSz8N0TQneAk5MPGMBwmzZ",
+          "width": 5472
+        }
+      ],
+      "place_id": "ChIJz1S59oeMpzERNn0r7BbDS3o",
+      "plus_code": {
+        "compound_code": "6X86+45 tt. Dương Đông, Thành phố Phú Quốc, Kiên Giang, Vietnam",
+        "global_code": "7P256X86+45"
+      },
+      "rating": 4.3,
+      "reference": "ChIJz1S59oeMpzERNn0r7BbDS3o",
+      "scope": "GOOGLE",
+      "types": [
+        "primary_school",
+        "school",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 14,
+      "vicinity": "12 Đường 30 Tháng 4, TT. Dương Đông, Phu Quoc District"
+    },
+    {
+      "business_status": "CLOSED_TEMPORARILY",
+      "geometry": {
+        "location": {
+          "lat": 10.2173917,
+          "lng": 103.9625633
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 10.2187946302915,
+            "lng": 103.9639824302915
+          },
+          "southwest": {
+            "lat": 10.2160966697085,
+            "lng": 103.9612844697085
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png",
+      "icon_background_color": "#7B9EB0",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/school_pinlet",
+      "name": "xua bảo",
+      "permanently_closed": true,
+      "place_id": "ChIJkRUygdeNpzERwggvuERfUZU",
+      "plus_code": {
+        "compound_code": "6X87+X2 tt. Dương Đông, Thành phố Phú Quốc, Kiên Giang, Vietnam",
+        "global_code": "7P256X87+X2"
+      },
+      "reference": "ChIJkRUygdeNpzERwggvuERfUZU",
+      "scope": "GOOGLE",
+      "types": [
+        "school",
+        "point_of_interest",
+        "establishment"
+      ],
+      "vicinity": "81c Đường Bạch Đằng, TT. Dương Đông, Phú Quốc"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 10.216596,
+          "lng": 103.9593059
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 10.2178727302915,
+            "lng": 103.9605995802915
+          },
+          "southwest": {
+            "lat": 10.2151747697085,
+            "lng": 103.9579016197085
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png",
+      "icon_background_color": "#7B9EB0",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/school_pinlet",
+      "name": "Trường Mầm Non Dương Đông",
+      "place_id": "ChIJZR7Jl4eMpzERWevy_X-XBdo",
+      "plus_code": {
+        "compound_code": "6X85+JP tt. Dương Đông, Thành phố Phú Quốc, Kiên Giang, Vietnam",
+        "global_code": "7P256X85+JP"
+      },
+      "rating": 5,
+      "reference": "ChIJZR7Jl4eMpzERWevy_X-XBdo",
+      "scope": "GOOGLE",
+      "types": [
+        "school",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 5,
+      "vicinity": "3 Đường 30 Tháng 4, TT. Dương Đông, Phú Quốc"
+    },
+    {
+      "business_status": "CLOSED_TEMPORARILY",
+      "geometry": {
+        "location": {
+          "lat": 10.216252,
+          "lng": 103.9689357
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 10.2176579802915,
+            "lng": 103.9702365302915
+          },
+          "southwest": {
+            "lat": 10.2149600197085,
+            "lng": 103.9675385697085
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png",
+      "icon_background_color": "#7B9EB0",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/school_pinlet",
+      "name": "Trường Thpt Phan Thành Tài",
+      "permanently_closed": true,
+      "place_id": "ChIJQ_vNBXuMpzERA3dsZZkK-C0",
+      "plus_code": {
+        "compound_code": "6X89+GH tt. Dương Đông, Thành phố Phú Quốc, Kiên Giang, Vietnam",
+        "global_code": "7P256X89+GH"
+      },
+      "reference": "ChIJQ_vNBXuMpzERA3dsZZkK-C0",
+      "scope": "GOOGLE",
+      "types": [
+        "school",
+        "point_of_interest",
+        "establishment"
+      ],
+      "vicinity": "144 Đường 30 Tháng 4, Khu phố 7, Phú Quốc"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 10.2177629,
+          "lng": 103.9591133
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 10.2191191302915,
+            "lng": 103.9605016802915
+          },
+          "southwest": {
+            "lat": 10.2164211697085,
+            "lng": 103.9578037197085
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png",
+      "icon_background_color": "#7B9EB0",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/school_pinlet",
+      "name": "Lớp Mầm Non Độc Lập Đôi Bàn Tay Như Little Hands Preschool",
+      "place_id": "ChIJQeqbDYeMpzERz46Kg4VFn0Y",
+      "plus_code": {
+        "compound_code": "6X95+4J tt. Dương Đông, Thành phố Phú Quốc, Kiên Giang, Vietnam",
+        "global_code": "7P256X95+4J"
+      },
+      "reference": "ChIJQeqbDYeMpzERz46Kg4VFn0Y",
+      "scope": "GOOGLE",
+      "types": [
+        "school",
+        "point_of_interest",
+        "establishment"
+      ],
+      "vicinity": "16 Đường Nguyễn Đình Chiểu, Khu 1, Phú Quốc"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 10.1956157,
+          "lng": 103.968321
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 10.1969600302915,
+            "lng": 103.9696671302915
+          },
+          "southwest": {
+            "lat": 10.1942620697085,
+            "lng": 103.9669691697085
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+      "icon_background_color": "#7B9EB0",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+      "name": "SEA MEN DIVERS / Фукуок Дайвинг / Phu Quoc Diving",
+      "opening_hours": {
+        "open_now": false
+      },
+      "photos": [
+        {
+          "height": 2301,
+          "html_attributions": [
+            "\u003ca href=\"https://maps.google.com/maps/contrib/114448576122357135879\"\u003eSEA MEN DIVERS / Фукуок Дайвинг / Phu Quoc Diving\u003c/a\u003e"
+          ],
+          "photo_reference": "AcJnMuGLFT7eKWzVQj_DkOCNGj34CgBawUypq5wMnhGHoETOpNelR2PkI4ytNzszLUnw8OJnjmuxy9SLthQHTZ4GFwnY3qzzpGiuaoUHzcRc6LZF9xBEJQ9U_7IPOw_85ypNMsjOvWz8wpG_f_vAUZSnHW8N2pWqqZ_bQtjeGFVLSM8OdPwn",
+          "width": 2607
+        }
+      ],
+      "place_id": "ChIJgYLpv8-NpzERCrzyFmeREd0",
+      "plus_code": {
+        "compound_code": "5XW9+68 Dương Tơ, Thành phố Phú Quốc, Kiên Giang, Vietnam",
+        "global_code": "7P255XW9+68"
+      },
+      "rating": 4.9,
+      "reference": "ChIJgYLpv8-NpzERCrzyFmeREd0",
+      "scope": "GOOGLE",
+      "types": [
+        "school",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 11,
+      "vicinity": "141 Đường Trần Hưng Đạo, Kp7, Phú Quốc"
+    },
+    {
+      "business_status": "CLOSED_TEMPORARILY",
+      "geometry": {
+        "location": {
+          "lat": 10.2158003,
+          "lng": 103.9725307
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 10.2171915802915,
+            "lng": 103.9738014302915
+          },
+          "southwest": {
+            "lat": 10.2144936197085,
+            "lng": 103.9711034697085
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png",
+      "icon_background_color": "#7B9EB0",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/school_pinlet",
+      "name": "Trường Cấp 2 Dương Đông",
+      "permanently_closed": true,
+      "place_id": "ChIJYS0gd3CMpzERABi00ritbR0",
+      "reference": "ChIJYS0gd3CMpzERABi00ritbR0",
+      "scope": "GOOGLE",
+      "types": [
+        "school",
+        "point_of_interest",
+        "establishment"
+      ],
+      "vicinity": "6X8F+82C, Tỉnh lộ 47, TT. Dương Đông, Phu Quoc District"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 10.2187924,
+          "lng": 103.9588618
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 10.2201469302915,
+            "lng": 103.9602064302915
+          },
+          "southwest": {
+            "lat": 10.2174489697085,
+            "lng": 103.9575084697085
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png",
+      "icon_background_color": "#7B9EB0",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/school_pinlet",
+      "name": "TRƯỜNG MẦM NON TƯ THỤC HOA PHƯỢNG",
+      "opening_hours": {
+        "open_now": false
+      },
+      "place_id": "ChIJC3i_5WyNpzER9bClfRmEywc",
+      "plus_code": {
+        "compound_code": "6X95+GG tt. Dương Đông, Thành phố Phú Quốc, Kiên Giang, Vietnam",
+        "global_code": "7P256X95+GG"
+      },
+      "reference": "ChIJC3i_5WyNpzER9bClfRmEywc",
+      "scope": "GOOGLE",
+      "types": [
+        "school",
+        "point_of_interest",
+        "establishment"
+      ],
+      "vicinity": "10 Đường Nguyễn Trung Trực, Khu Phố 5, Phú Quốc"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 10.2173694,
+          "lng": 103.9721321
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 10.2187120802915,
+            "lng": 103.9735041302915
+          },
+          "southwest": {
+            "lat": 10.2160141197085,
+            "lng": 103.9708061697085
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png",
+      "icon_background_color": "#7B9EB0",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/school_pinlet",
+      "name": "MẦM NON BENZ BINZ PHÚ QUỐC",
+      "opening_hours": {
+        "open_now": false
+      },
+      "photos": [
+        {
+          "height": 960,
+          "html_attributions": [
+            "\u003ca href=\"https://maps.google.com/maps/contrib/102598165308488782181\"\u003eMẦM NON BENZ BINZ PHÚ QUỐC\u003c/a\u003e"
+          ],
+          "photo_reference": "AcJnMuGqKwLaG9iN1xpmkFnp6bWl9st3H_ZyDEqaVBfS94Dm8e3tcbEGTUrRyzpzLZHEhV8a9Mx_51yHeIqgWfCo8xvoh286STaUaTjNwZzhOnp3c_qf-Tvqh3HyCGvlsN3KN7iRXHASJHKFlbEpnChA4V9WmgIQosEwwpzlX4UML46y2EUa",
+          "width": 1280
+        }
+      ],
+      "place_id": "ChIJ9QwmdQmNpzER3NmFO3bSg2I",
+      "plus_code": {
+        "compound_code": "6X8C+WV tt. Dương Đông, Thành phố Phú Quốc, Kiên Giang, Vietnam",
+        "global_code": "7P256X8C+WV"
+      },
+      "reference": "ChIJ9QwmdQmNpzER3NmFO3bSg2I",
+      "scope": "GOOGLE",
+      "types": [
+        "school",
+        "point_of_interest",
+        "establishment"
+      ],
+      "vicinity": "Phường, 235/8 Đường 30 Tháng 4, Khu Phố 1, Phú Quốc"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 10.2193028,
+          "lng": 103.9720179
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 10.2206727302915,
+            "lng": 103.9732965802915
+          },
+          "southwest": {
+            "lat": 10.2179747697085,
+            "lng": 103.9705986197085
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png",
+      "icon_background_color": "#7B9EB0",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/school_pinlet",
+      "name": "Bilingual Kindergarten ROYAL SPRING",
+      "opening_hours": {
+        "open_now": false
+      },
+      "photos": [
+        {
+          "height": 1740,
+          "html_attributions": [
+            "\u003ca href=\"https://maps.google.com/maps/contrib/106417690188743456565\"\u003eEvgeny Kuryatnikov\u003c/a\u003e"
+          ],
+          "photo_reference": "AcJnMuHYO-cs5kmuj0d1CWShi9na3iiozL94V7iNz8dOZscLRmQTCAayIyixBxAlPhcQuBAR8iJNz92KwnfVnEYehfObbjEb9wjb_abeUZyiSVNrkBxLb4W_1o7RMKP7MZTVMccbdvzDKvyH9vFOcFXfvpJTTiIxvxEX_pQfXOsZ1pBDYZSA",
+          "width": 2500
+        }
+      ],
+      "place_id": "ChIJTabpu-mNpzERoHr_1feZz6M",
+      "plus_code": {
+        "compound_code": "6X9C+PR tt. Dương Đông, Thành phố Phú Quốc, Kiên Giang, Vietnam",
+        "global_code": "7P256X9C+PR"
+      },
+      "rating": 5,
+      "reference": "ChIJTabpu-mNpzERoHr_1feZz6M",
+      "scope": "GOOGLE",
+      "types": [
+        "school",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 1,
+      "vicinity": "11-1 đường Hùng Vương, TT. Dương Đông, Phú Quốc"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 10.2214704,
+          "lng": 103.9573725
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 10.2228654302915,
+            "lng": 103.9587769302915
+          },
+          "southwest": {
+            "lat": 10.2201674697085,
+            "lng": 103.9560789697085
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png",
+      "icon_background_color": "#7B9EB0",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/school_pinlet",
+      "name": "Trường tiểu học Dương Đông 2",
+      "opening_hours": {
+        "open_now": false
+      },
+      "photos": [
+        {
+          "height": 250,
+          "html_attributions": [
+            "\u003ca href=\"https://maps.google.com/maps/contrib/114026097882131217958\"\u003eAnh Huy Trần\u003c/a\u003e"
+          ],
+          "photo_reference": "AcJnMuEpTS80fuSYR2O_dzm_O81pPbMBjoZzUapWUO2888SJkrcktCIgvZ_XYDg4tfpwVjDXVd6iVAnsmiVqLeRcfPoZAZjJgGluo7M_p6QUFEhYGJu9KI509xRVE3WUeCG9Fbq12VNN6gOWnhEnkD20GXXLa6drG1hB22drMgVr-GzsW6Y2",
+          "width": 446
+        }
+      ],
+      "place_id": "ChIJD4WOGYGMpzERqdOFuSZS22I",
+      "rating": 4,
+      "reference": "ChIJD4WOGYGMpzERqdOFuSZS22I",
+      "scope": "GOOGLE",
+      "types": [
+        "primary_school",
+        "school",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 8,
+      "vicinity": "6XC4+HWQ, Đường Trần Phú, TT. Dương Đông, Phú Quốc"
+    }
+  ],
+  "status": "OK"
+}

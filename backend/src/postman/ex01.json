@@ -1,0 +1,225 @@
+###
+GET https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=10.20709480855126,103.96346134811829&radius=2000&type=hospital&key=AIzaSyDNL-VGaw9HsKEkTbZuo18KWwjVim2bXrM
+
+
+
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=UTF-8
+Date: Wed, 15 Nov 2023 08:07:19 GMT
+Expires: Wed, 15 Nov 2023 08:12:19 GMT
+Cache-Control: public, max-age=300
+Vary: Accept-Language
+Server: scaffolding on HTTPServer2
+Content-Length: 5798
+X-XSS-Protection: 0
+X-Frame-Options: SAMEORIGIN
+Server-Timing: gfet4t7; dur=102
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Connection: close
+
+{
+  "html_attributions": [],
+  "results": [
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 10.2150242,
+          "lng": 103.96767
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 10.2164162302915,
+            "lng": 103.9689712302915
+          },
+          "southwest": {
+            "lat": 10.2137182697085,
+            "lng": 103.9662732697085
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/hospital-71.png",
+      "icon_background_color": "#F88181",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hospital-H_pinlet",
+      "name": "Trung Tâm Y Tế Phú Quốc",
+      "opening_hours": {
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 3024,
+          "html_attributions": [
+            "\u003ca href=\"https://maps.google.com/maps/contrib/110573256097313438645\"\u003eĐặng Quốc Trương\u003c/a\u003e"
+          ],
+          "photo_reference": "AcJnMuEpwAs8cF26A51Eq4Uk0ZQNaIr7GJNw8uz9V8MVA7QjwbPof9x3uwvDgBp_cUNeO5xsOvq_UcNPyCD-CBIEmMO6F1b4a5hkCId8AERSPOnW-zUAn2T2-1pxPrmITzKzbhdyKrDMAdNc8tVU6uMWo1hb1pgCFgtw-QUDl9ZOSjWPbPKB",
+          "width": 4032
+        }
+      ],
+      "place_id": "ChIJNZHWQ3uMpzERLkbqJmDTkoY",
+      "plus_code": {
+        "compound_code": "6X89+23 tt. Dương Đông, Thành phố Phú Quốc, Kiên Giang, Vietnam",
+        "global_code": "7P256X89+23"
+      },
+      "rating": 2.4,
+      "reference": "ChIJNZHWQ3uMpzERLkbqJmDTkoY",
+      "scope": "GOOGLE",
+      "types": [
+        "hospital",
+        "doctor",
+        "health",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 101,
+      "vicinity": "128 Đường 30 Tháng 4, TT. Dương Đông, Phú Quốc"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 10.2161071,
+          "lng": 103.9594387
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 10.2175310302915,
+            "lng": 103.9608314302915
+          },
+          "southwest": {
+            "lat": 10.2148330697085,
+            "lng": 103.9581334697085
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/hospital-71.png",
+      "icon_background_color": "#F88181",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hospital-H_pinlet",
+      "name": "Phòng Y Tế Huyện Phú Quốc",
+      "place_id": "ChIJc_tqloeMpzER2UltJ3V143M",
+      "plus_code": {
+        "compound_code": "6X85+CQ tt. Dương Đông, Thành phố Phú Quốc, Kiên Giang, Vietnam",
+        "global_code": "7P256X85+CQ"
+      },
+      "reference": "ChIJc_tqloeMpzER2UltJ3V143M",
+      "scope": "GOOGLE",
+      "types": [
+        "hospital",
+        "health",
+        "point_of_interest",
+        "establishment"
+      ],
+      "vicinity": "2 Đường 30 Tháng 4, Khu phố 7, Phú Quốc"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 10.2230759,
+          "lng": 103.9617861
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 10.2244858302915,
+            "lng": 103.9631536302915
+          },
+          "southwest": {
+            "lat": 10.2217878697085,
+            "lng": 103.9604556697085
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/hospital-71.png",
+      "icon_background_color": "#F88181",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hospital-H_pinlet",
+      "name": "Trạm Y Tế Thị Trấn Dương Đông",
+      "photos": [
+        {
+          "height": 337,
+          "html_attributions": [
+            "\u003ca href=\"https://maps.google.com/maps/contrib/109558014386317428789\"\u003eVũ Xuân Thắng\u003c/a\u003e"
+          ],
+          "photo_reference": "AcJnMuE_b1qBw7aiZncjvPA6RO8aMgMlxfziV-V3dpqgn33HvRIHmOK21W9Wof0TYTRTlm8Ih2kny5Hyz1yYYqCUlIVtnxu5u4iwc9JkCRUFXXeSJp2BZrqn3Uf5baiSCIYXLYP6OXAuGXG5sn-nd03VhCm1W_w2d-NiDRdWtTdlk2r5KUU1",
+          "width": 600
+        }
+      ],
+      "place_id": "ChIJT6ktxX-MpzER2nwjmiw1ICc",
+      "plus_code": {
+        "compound_code": "6XF6+6P tt. Dương Đông, Thành phố Phú Quốc, Kiên Giang, Vietnam",
+        "global_code": "7P256XF6+6P"
+      },
+      "rating": 3.7,
+      "reference": "ChIJT6ktxX-MpzER2nwjmiw1ICc",
+      "scope": "GOOGLE",
+      "types": [
+        "hospital",
+        "health",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 3,
+      "vicinity": "7 Đường Mạc Cửu, TT. Dương Đông, Phú Quốc"
+    }
+  ],
+  "status": "OK"
+}
+
+
+
+
+
+
+
+
+{
+  "business_status": "OPERATIONAL",
+  "geometry": {
+      "location": {
+          "lat": 10.2150242,
+          "lng": 103.96767
+      },
+      "viewport": {
+          "northeast": {
+              "lat": 10.2164162302915,
+              "lng": 103.9689712302915
+          },
+          "southwest": {
+              "lat": 10.2137182697085,
+              "lng": 103.9662732697085
+          }
+      }
+  },
+  "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/hospital-71.png",
+  "icon_background_color": "#F88181",
+  "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hospital-H_pinlet",
+  "name": "Trung Tâm Y Tế Phú Quốc",
+  "opening_hours": {
+      "open_now": true
+  },
+  "photos": [
+      {
+          "height": 3024,
+          "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/110573256097313438645\">Đặng Quốc Trương</a>"
+          ],
+          "photo_reference": "AcJnMuGOMv98jhd12-HdZv5AuG6YnRNxJhoX_MXfdHhL0Xcbkfk6UyeMVo-snp_Z-cWb3wTwMGd2e5xZrMo2PBoeYTZnX6gM5FuQA-VAXRbiSaIvgTDMjJoMC5AZC3UwkmG8jSmRM8VJWoQWgf8_mycScK4EW5n0EE6inimTR_Y88mJM4PVo",
+          "width": 4032
+      }
+  ],
+  "place_id": "ChIJNZHWQ3uMpzERLkbqJmDTkoY",
+  "plus_code": {
+      "compound_code": "6X89+23 tt. Dương Đông, Thành phố Phú Quốc, Kiên Giang, Vietnam",
+      "global_code": "7P256X89+23"
+  },
+  "rating": 2.4,
+  "reference": "ChIJNZHWQ3uMpzERLkbqJmDTkoY",
+  "scope": "GOOGLE",
+  "types": [
+      "hospital",
+      "point_of_interest",
+      "doctor",
+      "health",
+      "establishment"
+  ],
+  "user_ratings_total": 101,
+  "vicinity": "128 Đường 30 Tháng 4, TT. Dương Đông, Phú Quốc"
+}

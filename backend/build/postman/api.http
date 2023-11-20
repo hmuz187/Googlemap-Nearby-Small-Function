@@ -1,0 +1,15 @@
+@url = http://localhost:6868/api
+
+
+
+###
+GET {{url}}/nearby/hospital
+Content-Type: application/json 
+
+{
+    "dataLocation": {
+        "lat": "10.20709480855126",
+        "lng": "103.96346134811829"
+    },
+    "dataType": "hospital"
+}
